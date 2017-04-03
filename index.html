@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic Keyboard with Web Audio API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- Waveform selector -->
+    <p>
+        <label for="soundType">Select a waveform:</label> <select name="soundType" id="soundType">
+            <option value="triangle" selected>Triangle</option>
+            <option value="sine">Sine</option>
+            <option value="square">Square</option>
+            <option value="sawtooth">Sawtooth</option>
+        </select>
+    </p>
+    <!-- Keyboard placeholder -->
+    <div id="keyboard">
+    </div>
+    <script src="keyboard.js"></script>
+  </body>
+</html>
